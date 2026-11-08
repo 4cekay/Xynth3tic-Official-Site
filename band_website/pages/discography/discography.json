@@ -3,7 +3,7 @@
     {
       "id": "letters",
       "name": "Letters",
-      "type": "Studio Album",
+      "type": "EP",
       "date": "March 31st, 2027",
       "duration": "26:27",
       "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world.",
@@ -16,8 +16,48 @@
         "Liar Liar",
         "Letters pt.2",
         "Epilogue (Lullaby)"
-      ]
+      ],
+      "cover": "../../images/letters-cover.png"
     },
-    {}
+    {
+      "id": "ashes-of-the-dollhouse",
+      "name": "Ashes of the Dollhouse",
+      "type": "Studio Album",
+      "date": "October 12th, 2027",
+      "duration": "38:27",
+      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world.",
+      "tracklist": [
+        "Intro: ",
+        "Composure",
+        "",
+        "",
+        "",
+        "Rush Hour",
+        "",
+        "Forgive and Forget",
+        "Outro:"
+      ],
+      "cover": "../../images/album.jpeg"
+    },
+    {
+      "id": "curiosities-and-oddities",
+      "name": "Curiosities & Oddities",
+      "type": "EP",
+      "date": "April 1, 2028",
+      "duration": "21:42",
+      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world.",
+      "tracklist": ["Another Day", "", "", "Lopsided", "", "", "MOVE!"],
+      "cover": "../../images/album.jpeg"
+    },
+    {
+      "id": "candlelit-reverie",
+      "name": "Candlelit Reverie",
+      "type": "EP",
+      "date": "September 9, 2028",
+      "duration": "21:42",
+      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world.",
+      "tracklist": ["Another Day", "", "", "Lopsided", "", "", "MOVE!"],
+      "cover": "../../images/album.jpeg"
+    }
   ]
 }

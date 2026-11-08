@@ -19,6 +19,13 @@ async function showSelectedRelease() {
   const release_list = await getReleases();
   const selected = release_list.find((item) => item.id === releaseID);
 
+  // insert album image into its slot
+  document.getElementById("album-cover").innerHTML += `<img
+    class="project-img"
+    src="${selected.cover}"
+    alt="${selected.name} album artwork"
+  />`;
+
   // insert release specs into their elements
   document.getElementById("release-name").textContent = selected.name;
   document.getElementById("release-date").textContent = selected.date;

@@ -43,6 +43,10 @@
   color: whitesmoke;
 }
 
-.project-img {
+#album-cover {
   flex: 2;
+}
+
+.project-img {
+  width: 100%;
 }
