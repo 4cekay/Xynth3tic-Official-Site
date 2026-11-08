@@ -1,8 +1,8 @@
 {
   "products": [
     {
-      "id": "letters1-lp",
-      "name": "Letters Pt.1 (LP Ver.)",
+      "id": "letters-lp",
+      "name": "Letters (LP Ver.)",
       "type": "Vinyl",
       "limited": true,
       "signed": false,
@@ -10,8 +10,8 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
     },
     {
-      "id": "letters1-first-press",
-      "name": "Letters Pt.1 (First Press)",
+      "id": "letters-first-press",
+      "name": "Letters (First Press)",
       "type": "CD",
       "limited": true,
       "signed": true,
@@ -19,8 +19,8 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
     },
     {
-      "id": "letters1-standard",
-      "name": "Letters Pt.1 (Standard)",
+      "id": "letters-standard",
+      "name": "Letters (Standard)",
       "type": "CD",
       "limited": false,
       "signed": false,
@@ -28,8 +28,8 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
     },
     {
-      "id": "letters1-deluxe",
-      "name": "Letters Pt.1 (Deluxe)",
+      "id": "letters-deluxe",
+      "name": "Letters (Deluxe)",
       "type": "CD",
       "limited": false,
       "signed": false,

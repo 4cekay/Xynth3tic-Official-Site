@@ -1,0 +1,21 @@
+{
+  "releases": [
+    {
+      "id": "letters",
+      "name": "Letters",
+      "type": "album",
+      "date": 2026,
+      "tracklist": [
+        "Prologue (Waltz)",
+        "Letters pt.1",
+        "Interlude (Serenade)",
+        "Faceless",
+        "Interlude (Lament)",
+        "Liar Liar",
+        "Letters pt.2",
+        "Epilogue (Lullaby)"
+      ]
+    },
+    {}
+  ]
+}

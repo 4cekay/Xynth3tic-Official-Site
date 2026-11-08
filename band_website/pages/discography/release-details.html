@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xynth3tic Releases</title>
+
+    <link href="../css/flexbox.css" rel="stylesheet" />
+    <link href="../../css/fonts.css" rel="stylesheet" />
+
+    <link href="../../css/global.css" rel="stylesheet" />
+    <link href="../../css/item-details.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="home-cover">
+      <img class="bg-overlay" src="../images/bg.png" alt="red bg" />
+      <img
+        class="bg-img"
+        src="../images/fire-house.png"
+        alt="Xynth3tic Band Cover"
+      />
+    </div>
+    <header class="flexbox">
+      <nav class="nav-main flexbox">
+        <a href="../index.html"
+          ><img class="logo-img" src="../../images/logo.png" alt="Home"
+        /></a>
+        <ul class="nav-links-list">
+          <li><a class="nav-link" href="../../index.html#latest">Latest</a></li>
+          <li>
+            <a class="nav-link" href="../../pages/the-band.html">The Band</a>
+          </li>
+          <li><a class="current-link" href="#">Discography</a></li>
+          <li>
+            <a class="nav-link" href="../../pages/touring.html">Touring</a>
+          </li>
+          <li>
+            <a class="nav-link" href="../webstore/webstore.html">Webstore</a>
+          </li>
+          <li>
+            <a class="nav-link" href="../../index.html#contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="page-content">
+      <div class="item-container" id="product-content" hidden>
+        <img
+          class="item-img"
+          src="../../images/redcdcase_200x176px.png"
+          alt="Filler Product Image"
+        />
+        <div class="item-column">
+          <h1 class="item-name" id="product-name"></h1>
+
+          <ul class="item-tags" id="product-tags">
+            <li class="tag" id="product-type" hidden></li>
+            <li class="tag" id="product-lim" hidden>Limited</li>
+            <li class="tag" id="product-signed" hidden>Signed</li>
+          </ul>
+
+          <div class="item-desc" id="product-desc">
+            <p id="product-desc-text"></p>
+            <p class="item-price" id="product-price"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="flexbox">
+      <p class="footer-text">2026 Xynth3tic Band</p>
+      <p class="footer-links-list">
+        <span
+          ><a class="footer-link" href="/style_guide/index.html"
+            >Style Guide</a
+          ></span
+        >
+        | <span><a class="footer-link" href="#">Citations</a></span>
+      </p>
+    </footer>
+
+    <script src="../../js/webstore.js"></script>
+  </body>
+</html>
