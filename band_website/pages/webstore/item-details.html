@@ -33,23 +33,24 @@
     </header>
 
     <div class="page-content">
-      <div class="item-container">
+      <div class="item-container" id="product-content" hidden>
         <img
           class="item-img"
           src="../../images/redcdcase_200x176px.png"
           alt="Filler Product Image"
         />
         <div class="item-column">
-          <h1 class="item-name">Album CD (Day One Ed.)</h1>
+          <h1 class="item-name" id="product-name"></h1>
 
-          <div class="item-desc">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <p class="item-price">$19.99</p>
+          <ul class="item-tags" id="product-tags">
+            <li class="tag" id="product-type" hidden></li>
+            <li class="tag" id="product-lim" hidden>Limited</li>
+            <li class="tag" id="product-signed" hidden>Signed</li>
+          </ul>
+
+          <div class="item-desc" id="product-desc">
+            <p id="product-desc-text"></p>
+            <p class="item-price" id="product-price"></p>
           </div>
           <button class="add-to-cart-button">Add to Cart</button>
         </div>
@@ -67,5 +68,7 @@
         | <span><a class="footer-link" href="#">Citations</a></span>
       </p>
     </footer>
+
+    <script src="../../js/webstore.js"></script>
   </body>
 </html>

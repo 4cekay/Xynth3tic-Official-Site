@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": "letters1-lp",
+      "name": "Letters Pt.1 (LP Ver.)",
+      "type": "Vinyl",
+      "limited": true,
+      "signed": false,
+      "price": 39.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "letters1-first-press",
+      "name": "Letters Pt.1 (First Press)",
+      "type": "CD",
+      "limited": true,
+      "signed": true,
+      "price": 24.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "letters1-standard",
+      "name": "Letters Pt.1 (Standard)",
+      "type": "CD",
+      "limited": false,
+      "signed": false,
+      "price": 14.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "letters1-deluxe",
+      "name": "Letters Pt.1 (Deluxe)",
+      "type": "CD",
+      "limited": false,
+      "signed": false,
+      "price": 19.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "blindfold",
+      "name": "Xynth3tic Blindfold",
+      "type": "Apparel",
+      "limited": false,
+      "signed": false,
+      "price": 12.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "mask",
+      "name": "M4ze Mask",
+      "type": "Apparel",
+      "limited": false,
+      "signed": false,
+      "price": 12.99,
+      "description,": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      "id": "ribbon",
+      "name": "Rend1ng Ribbon",
+      "type": "Apparel",
+      "limited": false,
+      "signed": false,
+      "price": 12.99,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+    }
+  ]
+}

@@ -12,3 +12,5 @@ https://developer.mozilla.org/en-US/docs/Web/Media/Guides/Formats/Image_types
 https://www.w3schools.com/tags/att_img_loading.asp
 https://web.dev/learn/performance/optimize-web-fonts
 https://getbootstrap.com/docs/5.0/layout/breakpoints/
+
+Reference: JSON + JS loading product display approach idea from https://stackoverflow.com/questions/66519905/how-to-add-products-and-display-them-on-a-website
