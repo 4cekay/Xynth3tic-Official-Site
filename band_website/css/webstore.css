@@ -46,7 +46,6 @@ header {
 /* Header Section */
 
 /* GENERAL */
-
 #info-bar {
   display: flex;
   flex-direction: row;
@@ -55,11 +54,9 @@ header {
 #main-content {
   gap: 3rem;
 }
-
 /* GENERAL */
 
 /* Listings */
-
 .element-heading {
   color: whitesmoke;
 }
@@ -72,84 +69,10 @@ header {
   border-bottom: 0.15rem solid rgba(211, 211, 211, 0.281);
 }
 
+.description {
+  max-width: 100%;
+}
 /* Listings */
-
-/* Tour Section */
-
-.show-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 1rem 0rem;
-}
-
-.show {
-  padding: 0;
-  background-color: var(--dark-red);
-  border: none;
-  border-radius: 0.3rem;
-  overflow: hidden;
-  transition: all 0.2s ease-in-out;
-}
-.show:hover,
-.show:focus-within {
-  background-color: var(--button-dark-grey);
-  transform: translateY(-2px);
-}
-
-.tour-listing {
-  display: grid;
-  /* fractional divisions */
-  grid-template-columns: 7.5rem 1fr auto;
-  grid-template-rows: 1fr 1fr;
-  column-gap: 1.5rem;
-  min-height: 7rem;
-}
-
-.tour-header-row {
-  display: contents;
-}
-
-.tour-date {
-  grid-column: 1;
-  grid-row: 1 / span 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin: 0;
-  padding: 1rem;
-  background-color: var(--base-red);
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.tour-location {
-  grid-column: 2;
-  grid-row: 1;
-  align-self: end;
-  margin: 0;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.tour-listing-details {
-  grid-column: 2;
-  grid-row: 2;
-  align-self: start;
-  display: flex;
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-/* Tour Section */
 
 /* Limited Section*/
 
@@ -195,8 +118,11 @@ header {
 .merch-item {
   padding: 1em 2em;
 
-  transition: all 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
   background-color: transparent;
+
+  min-width: 15%;
+  max-width: 20%;
 }
 
 .merch-item:hover,

@@ -43,7 +43,7 @@
           <h1 class="item-name" id="product-name"></h1>
 
           <ul class="item-tags" id="product-tags">
-            <li class="tag" id="product-type" hidden></li>
+            <li class="tag" id="product-type"></li>
             <li class="tag" id="product-lim" hidden>Limited</li>
             <li class="tag" id="product-signed" hidden>Signed</li>
           </ul>
@@ -52,7 +52,9 @@
             <p id="product-desc-text"></p>
             <p class="item-price" id="product-price"></p>
           </div>
-          <button class="add-to-cart-button">Add to Cart</button>
+          <button class="add-to-cart-button" onclick="cartAlert()">
+            Add to Cart
+          </button>
         </div>
       </div>
     </div>
@@ -69,6 +71,11 @@
       </p>
     </footer>
 
+    <script>
+      function cartAlert() {
+        alert("Added to cart!");
+      }
+    </script>
     <script src="../../js/webstore.js"></script>
   </body>
 </html>

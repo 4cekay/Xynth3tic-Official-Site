@@ -1,44 +1,50 @@
-// Reference: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON
+// Reference: same sources as webstore.js, just modified to fit the discography displays (instead of products)
 
-// function for loading in the products in the JSON file
-async function getProducts() {
-  const response = await fetch("./products.json");
-  const products_list = await response.json();
+// function for loading in the releases in the JSON file
+async function getReleases() {
+  const response = await fetch("./discography.json");
+  const release_list = await response.json();
 
-  return products_list.products; // products list
+  return release_list.releases;
 }
 
-// References:
-// https://developer.mozilla.org/en-US/docs/Web/URI/Reference/Query
-// https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams#parsing_window.location
-// https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
-// https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/hidden
-
 // function for conditionally displaying selected product
-async function showSelectedProduct() {
-  const display = document.getElementById("product-content");
+async function showSelectedRelease() {
+  const display = document.getElementById("release-content");
 
   // fetch specific ID from URL parameters
-  const productID = new URLSearchParams(window.location.search).get("id");
+  const releaseID = new URLSearchParams(window.location.search).get("id");
 
-  // search for product with matching ID
-  const products_list = await getProducts();
-  const selected = products_list.find((item) => item.id === productID);
+  // search for release with matching ID
+  const release_list = await getReleases();
+  const selected = release_list.find((item) => item.id === releaseID);
 
-  // insert product details into their elements
-  document.getElementById("product-name").textContent = selected.name;
-  document.getElementById("product-type").textContent = selected.type;
-  document.getElementById("product-desc-text").textContent =
-    selected.description;
-  document.querySelector("#product-price").textContent =
-    `$ ${selected.price} CAD`;
+  // insert release specs into their elements
+  document.getElementById("release-name").textContent = selected.name;
+  document.getElementById("release-date").textContent = selected.date;
+  document.getElementById("release-type").textContent = selected.type;
+  document.getElementById("release-duration").textContent = selected.duration;
+  document.getElementById("release-desc").textContent = selected.description;
 
-  // display relevant tags (unhide/keep hidden)
-  document.getElementById("product-lim").hidden = !selected.limited;
-  document.getElementById("product-signed").hidden = !selected.signed;
+  // display tracklist by iterating through array and appending list elements
+  // Reference: https://stackoverflow.com/questions/69588190/how-do-i-add-child-li-elements-to-ul-without-removing-current-children
+  const tracklist = selected.tracklist;
 
-  // display full product details once all info is loaded in
+  let i = 0;
+  while (i < tracklist.length) {
+    const current_track = tracklist[i];
+
+    // Source - https://stackoverflow.com/a/69588250
+    // Posted by Manas Khandelwal
+    // Retrieved 2026-11-08, License - CC BY-SA 4.0
+    document.getElementById("release-tracks").innerHTML +=
+      `<li class="track-name">${i + 1}. ${current_track}</li>`;
+
+    i++;
+  }
+
+  // display full release details once all info is loaded in
   display.hidden = false;
 }
 
-showSelectedProduct();
+showSelectedRelease();

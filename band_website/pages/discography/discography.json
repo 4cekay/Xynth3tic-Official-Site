@@ -3,8 +3,10 @@
     {
       "id": "letters",
       "name": "Letters",
-      "type": "album",
-      "date": 2026,
+      "type": "Studio Album",
+      "date": "March 31st, 2027",
+      "duration": "26:27",
+      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world.",
       "tracklist": [
         "Prologue (Waltz)",
         "Letters pt.1",

@@ -9,7 +9,7 @@
     <link href="../../css/fonts.css" rel="stylesheet" />
 
     <link href="../../css/global.css" rel="stylesheet" />
-    <link href="../../css/item-details.css" rel="stylesheet" />
+    <link href="../../css/release-details.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -46,24 +46,24 @@
     </header>
 
     <div class="page-content">
-      <div class="item-container" id="product-content" hidden>
+      <div class="project-container" id="release-content" hidden>
         <img
-          class="item-img"
+          class="project-img"
           src="../../images/redcdcase_200x176px.png"
           alt="Filler Product Image"
         />
-        <div class="item-column">
-          <h1 class="item-name" id="product-name"></h1>
+        <div class="project-column">
+          <h1 class="project-name" id="release-name"></h1>
 
-          <ul class="item-tags" id="product-tags">
-            <li class="tag" id="product-type" hidden></li>
-            <li class="tag" id="product-lim" hidden>Limited</li>
-            <li class="tag" id="product-signed" hidden>Signed</li>
+          <ul class="project-specs" id="release-specs">
+            <li class="spec" id="release-date"></li>
+            <li class="spec" id="release-type"></li>
+            <li class="spec" id="release-duration"></li>
+            <li class="spec" id="release-desc"></li>
           </ul>
 
-          <div class="item-desc" id="product-desc">
-            <p id="product-desc-text"></p>
-            <p class="item-price" id="product-price"></p>
+          <div class="tracklist">
+            <ul id="release-tracks"></ul>
           </div>
         </div>
       </div>
@@ -81,6 +81,6 @@
       </p>
     </footer>
 
-    <script src="../../js/webstore.js"></script>
+    <script src="../../js/discography.js"></script>
   </body>
 </html>

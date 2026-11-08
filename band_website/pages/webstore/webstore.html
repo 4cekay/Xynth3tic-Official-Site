@@ -29,6 +29,8 @@
     <div id="main-content">
       <!-- LIMITED + SIGNED SECTION // -->
 
+      <!-- Reference ("add to cart" button click): https://www.w3schools.com/jsref/event_onclick.asp -->
+
       <section id="limited">
         <h2 class="element-heading">Limited Edition & Signed</h2>
         <div class="listings-container">
@@ -47,7 +49,10 @@
               </a>
               <p class="description">LP Record</p>
               <p class="price">$39.99 CAD</p>
-              <button class="add-to-cart-button">Add to cart</button>
+
+              <button class="add-to-cart-button" onclick="cartAlert()">
+                Add to cart
+              </button>
             </li>
 
             <li class="lim-item">
@@ -64,7 +69,9 @@
               </a>
               <p class="description">Signed Physical CD</p>
               <p class="price">$24.99 CAD</p>
-              <button class="add-to-cart-button">Add to cart</button>
+              <button class="add-to-cart-button" onclick="cartAlert()">
+                Add to cart
+              </button>
             </li>
           </ul>
         </div>
@@ -90,12 +97,11 @@
                   alt="Black lace blindfold (Xynth3tic's signature accessory)"
                 />
               </a>
-              <p class="description">
-                A charcoal lace blindfold, akin to the one donned by leading
-                lady, Xynth3tic, herself.
-              </p>
+              <p class="description">Charcoal lace blindfold</p>
               <p class="price">$12.99 CAD</p>
-              <button class="add-to-cart-button">Add to cart</button>
+              <button class="add-to-cart-button" onclick="cartAlert()">
+                Add to cart
+              </button>
             </li>
 
             <li class="merch-item">
@@ -107,11 +113,11 @@
                   alt="Silver cracked mask (M4ze's signature accessory)"
                 />
               </a>
-              <p class="description">
-                A silver mask with cracks, akin to the one worn by M4ze.
-              </p>
+              <p class="description">Cracked silver mask</p>
               <p class="price">$12.99 CAD</p>
-              <button class="add-to-cart-button">Add to cart</button>
+              <button class="add-to-cart-button" onclick="cartAlert()">
+                Add to cart
+              </button>
             </li>
 
             <li class="merch-item">
@@ -123,11 +129,11 @@
                   alt="Pearl ribbon bow (Rend1ng's signature accessory)"
                 />
               </a>
-              <p class="description">
-                A pearl ribbon tied into a bow, akin to the one worn by Rend1ng.
-              </p>
+              <p class="description">Pearl ribbon bow</p>
               <p class="price">$12.99 CAD</p>
-              <button class="add-to-cart-button">Add to cart</button>
+              <button class="add-to-cart-button" onclick="cartAlert()">
+                Add to cart
+              </button>
             </li>
             <li class="merch-item">
               <a
@@ -143,7 +149,9 @@
               </a>
               <p class="description">Physical CD</p>
               <p class="price">$14.99 CAD</p>
-              <button class="add-to-cart-button">Add to cart</button>
+              <button class="add-to-cart-button" onclick="cartAlert()">
+                Add to cart
+              </button>
             </li>
             <li class="merch-item">
               <a
@@ -159,7 +167,9 @@
               </a>
               <p class="description">Physical CD</p>
               <p class="price">$19.99 CAD</p>
-              <button class="add-to-cart-button">Add to cart</button>
+              <button class="add-to-cart-button" onclick="cartAlert()">
+                Add to cart
+              </button>
             </li>
           </ul>
         </div>
@@ -177,6 +187,12 @@
       </p>
     </footer>
 
+    <!-- Reference: IAT339 JS slides (HTML script tags for small functions) -->
+    <script>
+      function cartAlert() {
+        alert("Added to cart!");
+      }
+    </script>
     <script src="../../js/webstore.js"></script>
   </body>
 </html>
