@@ -25,39 +25,96 @@
       "type": "Studio Album",
       "date": "October 12th, 2027",
       "duration": "38:27",
-      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world.",
+      "description": "What comes of the world after burning down? To rise from the ashes or scatter with the wind... does it matter either way? The trio's first studio album is a labor of love, and hate, and heartbreak, and everything in between. Alongside band members M4ze and Rend1ng, Xynth3tic strives to leave the past behind and discover what lies beyond a world in ruins.",
       "tracklist": [
-        "Intro: ",
+        "Intro: Grenadier",
         "Composure",
-        "",
-        "",
-        "",
+        "Blithe Etude",
+        "Madhouse",
+        "No Rest for the Weary, No Peace for the Honest",
         "Rush Hour",
-        "",
+        "White Noise",
         "Forgive and Forget",
-        "Outro:"
+        "Run It Back",
+        "Birdseye",
+        "Outro: memento mori"
       ],
-      "cover": "../../images/album.jpeg"
+      "cover": "../../images/ashes-of-the-dollhouse-cover.png"
     },
     {
       "id": "curiosities-and-oddities",
       "name": "Curiosities & Oddities",
       "type": "EP",
       "date": "April 1, 2028",
-      "duration": "21:42",
-      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world.",
-      "tracklist": ["Another Day", "", "", "Lopsided", "", "", "MOVE!"],
-      "cover": "../../images/album.jpeg"
+      "duration": "19:42",
+      "description": "Open up your eyes then open your mind; perhaps your world has yet to escape your will. In an exciting new take on the Xynth3tic sound, the core trio leans into their eccentricities in order to unlock their potential. Navigating themes so far unknown, the stars of our show heed the calls of their encores.",
+      "tracklist": [
+        "Prologue: Star's Ovation",
+        "Another Day",
+        "Ask, Seek, Knock",
+        "Lopsided",
+        "Strike 4",
+        "MOVE!"
+      ],
+      "cover": "../../images/curiosities-and-oddities-cover.png"
     },
     {
       "id": "candlelit-reverie",
       "name": "Candlelit Reverie",
       "type": "EP",
       "date": "September 9, 2028",
-      "duration": "21:42",
-      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world.",
-      "tracklist": ["Another Day", "", "", "Lopsided", "", "", "MOVE!"],
-      "cover": "../../images/album.jpeg"
+      "duration": "16:03",
+      "description": "Xynth3tic's and the band's shortest and most intimate release to date. The heart's deepest desires told in six different pieces, imbued with collective poetic influence and candid thoughts to drown and get lost in.",
+      "tracklist": [
+        "Glass Pulse",
+        "Ghost",
+        "West Side Song",
+        "25:00",
+        "Lily of the Valley"
+      ],
+      "cover": "../../images/candlelit-reverie-cover.png"
+    },
+
+    {
+      "id": "rush-hour",
+      "name": "Rush Hour",
+      "type": "Single",
+      "date": "September 3rd, 2027",
+      "duration": "3:33",
+      "description": "The pre-release single on the group's first full studio album—Ashes of the Dollhouse. Inspired by the heedless traffic in Southeast Asia, this track illustrates the simulataneous weightlessness and stifling feeling of a world that turns too quickly.",
+      "tracklist": ["Rush Hour"],
+      "cover": "../../images/rush-hour-cover.png"
+    },
+
+    {
+      "id": "eleven-ten",
+      "name": "11:10- (M4ZE)",
+      "type": "Single",
+      "date": "December 16th, 2027",
+      "duration": "7:26",
+      "description": "Core member M4ze's first solo release; a rock-infused two-parter that expresses a chronology of the guitarist's underlying emotions.",
+      "tracklist": ["11:10-", "Hours and Hours and Hours"],
+      "cover": "../../images/eleven-ten-cover.png"
+    },
+    {
+      "id": "subwoofer",
+      "name": "SUBWOOFER (REND1NG)",
+      "type": "Single",
+      "date": "July 1st, 2028",
+      "duration": "3:59",
+      "description": "Core member Rend1ng's first solo release; a psychadelic exploration of the keyboardist's inner conflicts through conversation between the artist's surrounding voices.",
+      "tracklist": ["SUBWOOFER"],
+      "cover": "../../images/subwoofer-cover.png"
+    },
+    {
+      "id": "synthesizer",
+      "name": "Synthesizer (XYNTH3TIC, 2029)",
+      "type": "Single",
+      "date": "March 2, 2029",
+      "duration": "9:45",
+      "description": "Xynth3tic's three-part personal project, released as a special arc-interlude. The leading lady exposes all the words left in between the lines, allowing the quietest parts of herself to break free at last.",
+      "tracklist": ["Synthesizer", "Hear Me, Hear Me", "Mute"],
+      "cover": "../../images/synthesizer-cover.png"
     }
   ]
 }
