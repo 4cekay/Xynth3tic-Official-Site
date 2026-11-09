@@ -40,6 +40,12 @@ body {
   text-decoration: underline;
 }
 
+.citation-link:hover,
+.citation-link:focus {
+  color: var(--bruise-pink);
+  text-decoration: underline;
+}
+
 /* Band Profiles Section*/
 .content-row {
   flex-direction: row;
@@ -111,4 +117,9 @@ body {
 .citation-list {
   padding: 0rem;
   color: var(--base-taupe);
+}
+
+.ref-link {
+  color: var(--bruise-pink);
+  text-decoration: underline;
 }

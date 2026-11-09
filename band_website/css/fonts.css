@@ -41,7 +41,8 @@ h3 {
 .nav-link,
 .current-link,
 .band-link,
-.checkout-link {
+.checkout-link,
+.citation-link {
   font-family: "Instrument Serif", serif;
   font-weight: 200;
   font-style: normal;

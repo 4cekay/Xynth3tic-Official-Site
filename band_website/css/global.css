@@ -98,10 +98,23 @@ footer {
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  color: var(--base-light-grey);
 }
 
 .footer-links-list li {
   list-style: none;
+}
+
+.footer-link {
+  color: var(--base-taupe);
+  text-decoration: underline;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--base-red);
+  text-decoration: none;
 }
 
 #page-title {
@@ -254,9 +267,8 @@ h4 {
 }
 .section-heading {
   margin: 1.5rem 1.5rem;
-
   color: var(--base-white);
-  background-color: var(--dark-red);
+  text-decoration: underline;
 }
 
 .elements-container {

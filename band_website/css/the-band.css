@@ -33,6 +33,12 @@ body {
   text-decoration: underline;
 }
 
+.band-link:hover,
+.band-link:focus {
+  color: var(--bruise-pink);
+  text-decoration: underline;
+}
+
 /* Band Profiles Section*/
 .content-row {
   flex-direction: row;

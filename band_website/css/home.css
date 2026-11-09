@@ -14,7 +14,7 @@ h2 {
 }
 
 .section-caption {
-  color: var(--base-taupe);
+  color: var(--base-light-grey);
 }
 
 /* Header Section */
@@ -34,14 +34,10 @@ h2 {
   background: rgba(0, 0, 0, 0.559);
 }
 
-.placeholder-box {
-  display: flex;
-
-  width: 75%;
-  height: 25rem;
-
-  background: white;
-
-  align-items: center;
-  justify-content: center;
+.video-embed {
+  width: 100%;
+  max-width: 60rem;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: none;
 }
