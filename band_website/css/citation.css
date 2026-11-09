@@ -20,6 +20,8 @@ body {
 .page-title {
   color: var(--base-light-grey);
   font-size: 3rem;
+  padding: 0;
+  margin: 0;
 }
 
 .logo-title {
