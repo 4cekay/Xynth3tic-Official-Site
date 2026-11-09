@@ -107,14 +107,14 @@
       "cover": "../../images/subwoofer-cover.png"
     },
     {
-      "id": "synthesizer",
-      "name": "Synthesizer (XYNTH3TIC, 2029)",
+      "id": "xynthesizer",
+      "name": "Xynthesizer (XYNTH3TIC, 2029)",
       "type": "Single",
       "date": "March 2, 2029",
       "duration": "9:45",
       "description": "Xynth3tic's three-part personal project, released as a special arc-interlude. The leading lady exposes all the words left in between the lines, allowing the quietest parts of herself to break free at last.",
-      "tracklist": ["Synthesizer", "Hear Me, Hear Me", "Mute"],
-      "cover": "../../images/synthesizer-cover.png"
+      "tracklist": ["Xynthesizer", "Hear Me, Hear Me", "Mute"],
+      "cover": "../../images/xynthesizer-cover.png"
     }
   ]
 }
