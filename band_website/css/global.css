@@ -571,69 +571,6 @@ li {
   background-color: var(--button-bg-hover);
 }
 
-/* Tour Listing */
-
-.tour-listing {
-  display: flex;
-  flex-wrap: wrap;
-
-  text-decoration: none;
-}
-
-.tour-listing p,
-.tour-listing li {
-  font-size: 0.7rem;
-}
-
-.tour-header-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  color: whitesmoke;
-
-  font-size: 1.25rem;
-}
-
-.tour-listing-details {
-  list-style: none;
-  padding-left: 0;
-  margin-top: 0;
-  color: var(--base-white);
-}
-
-.tour-listing-details:visited {
-  color: var(--base-white);
-}
-
-.tickets-link {
-  grid-column: 3;
-  grid-row: 1 / span 2;
-  align-self: center;
-  margin-right: 1.5rem;
-  padding: 0.75rem 0.75rem;
-
-  color: black;
-
-  border: rgb(98, 97, 97) solid 0.15rem;
-  border-radius: 0.15rem;
-  background-color: var(--base-light-grey);
-
-  font-weight: 700;
-  text-transform: uppercase;
-  transition: background-color 0.2s ease-in-out;
-}
-.tickets-link:hover,
-.tickets-link:focus {
-  align-self: center;
-  color: rgb(126, 93, 0);
-  border-color: rgb(197, 144, 1);
-  background-color: var(--button-bg-hover);
-}
-
-.tickets-link:visited {
-  color: black;
-}
 
 /* Payment Form */
 .payment-form {
@@ -788,3 +725,5 @@ li {
     margin-top: 0;
   }
 }
+
+

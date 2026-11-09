@@ -56,3 +56,27 @@
 
   font-weight: bold;
 }
+
+.item-tags{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  text-align: center;
+
+  padding: 0rem 0;
+  color: var(--base-light-grey);
+}
+
+.tag {
+  display: flex;
+  gap: 0rem;
+
+  padding: 0em 0;
+  color: var(--base-light-grey);
+}
+
+.item-desc {
+  padding: 0rem 0;
+  color: var(--base-light-grey);
+  text-align: center;
+}

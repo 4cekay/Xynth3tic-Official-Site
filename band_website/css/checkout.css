@@ -2,29 +2,52 @@
               https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns
 */
 
+#home-button {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+
+  z-index: 999;
+
+  padding: 1rem;
+  background: rgba(165, 42, 42, 0.514);
+
+  border: 0.3rem solid rgba(174, 101, 101, 0.765);
+  border-radius: 2rem;
+
+  text-decoration: none;
+  color: azure;
+
+  width: fit-content;
+
+  transition: all 0.25s ease-in-out;
+}
+#home-button:hover,
+#home-button:focus {
+  background: rgba(164, 103, 103, 0.662);
+  color: rgb(33, 3, 10);
+}
+
 /* Header Section */
 
 header {
-  flex-direction: column;
-  gap: 1rem;
+  gap: 0.5rem;
+}
 
-  justify-content: space-between;
+#page-title {
+  margin: 1rem;
 
-  text-align: center;
+  font-size: 3.5rem;
 
-  background-color: var(--dark-red);
+  text-shadow: 0.05rem 0.1rem 0.1rem rgba(201, 192, 192, 0.068);
+}
+
+.nav-main {
+  justify-content: space-evenly;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%,rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%);
 }
 
 /* Header Section */
-
-.nav-main {
-    display: flex;
-
-    align-items: center;
-    justify-content: flex-start;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%,rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%);
-    padding: 1rem;
-}
 
 .logo-img {
     margin: 0 0.5rem;
@@ -70,17 +93,18 @@ header {
 }
 
 .cart-container {
-  display: grid;
-  grid-template-columns: 1fr 22rem; /* items | summary */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   gap: 4rem;
-  align-items: start;
   padding: 3rem 0;
   max-width: 120rem;
   margin: 0 auto;
 }
 
-/* item list */
 .cart-list {
+  flex: 1 1 0;
+  min-width: 0;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -89,21 +113,21 @@ header {
 }
 
 li.cart-item {
-  display: grid;
-  grid-template-columns: 10rem 1fr;
-  grid-template-rows: auto auto 1fr;
-  column-gap: 2rem;
-  padding: 2rem 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 13rem;
+  padding: 2rem 0 2rem 12rem;
   border-bottom: 0.1rem solid rgba(245, 245, 245, 0.25);
 }
+
 li.cart-item:first-child {
   padding-top: 0;
 }
 
-/* cart item text and imgs */
+
 li.cart-item h5 {
-  grid-column: 2;
-  grid-row: 1;
+  order: 1;
   margin: 0 0 0.5rem;
   padding: 0;
   color: whitesmoke;
@@ -117,31 +141,31 @@ li.cart-item h5 {
 }
 
 .cart-item-data img {
-  grid-column: 1;
-  grid-row: 1 / span 3;
-  width: 100%;
-  max-width: 10rem;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 10rem;
   height: auto;
-  align-self: start;
+}
+li.cart-item:first-child .cart-item-data img {
+  top: 0;
 }
 
 .cart-item-data .cart-description {
-  grid-column: 2;
-  grid-row: 2;
+  order: 2;
   margin: 0 0 0.5rem;
   color: rgba(245, 245, 245, 0.7);
 }
 
 .cart-item-data .price {
-  grid-column: 2;
-  grid-row: 3;
+  order: 3;
   margin: 0rem 3rem 0.5rem 0;
   color: rgba(245, 245, 245, 0.7);
 }
 
 .cart-item-data .remove-link {
-  grid-column: 2;
-  grid-row: 4;
+  order: 4;
+  align-self: flex-start;
   color: rgba(245, 245, 245, 0.7);
   text-decoration: underline;
   border-bottom: none;
@@ -172,8 +196,7 @@ li.cart-item h5 {
   color: whitesmoke;
   background-color: rgba(113, 30, 30, 0.35);
   border: 0.1rem solid rgba(245, 245, 245, 0.2);
-
-  width: 80%;
+  flex: 0 0 17.6rem;
 }
 .subtotal-box h2,
 .subtotal-box p {

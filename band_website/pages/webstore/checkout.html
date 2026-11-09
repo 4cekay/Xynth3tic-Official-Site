@@ -12,6 +12,14 @@
   </head>
 
   <body>
+    <div class="home-cover">
+      <img class="bg-overlay" src="../../images/bg.png" alt="red bg" />
+      <img
+        class="bg-img"
+        src="../../images/fire-house.png"
+        alt="Xynth3tic Band Cover"
+      />
+    </div>
     <header class="flexbox">
       <nav class="nav-main flexbox">
         <a href="../../index.html"
@@ -78,6 +86,7 @@
                     class="input-field"
                     type="text"
                     placeholder="1234-5678-9101-1213"
+                    required
                   />
 
                   <label class="input-label" for="card-exp"
@@ -88,6 +97,7 @@
                     class="input-field"
                     type="text"
                     placeholder="MM/YY"
+                    required
                   />
 
                   <label class="input-label" for="card-cvc"
@@ -98,6 +108,7 @@
                     class="input-field"
                     type="text"
                     placeholder="CVC"
+                    required
                   />
                 </div>
               </section>
@@ -114,6 +125,7 @@
                     class="input-field"
                     type="text"
                     placeholder="Jane"
+                    required
                   />
                   <label class="input-label" for="last-name">Last Name: </label>
                   <input
@@ -121,6 +133,7 @@
                     class="input-field"
                     type="text"
                     placeholder="Doe"
+                    required
                   />
                 </div>
 
@@ -133,6 +146,7 @@
                     class="input-field"
                     type="text"
                     placeholder="House no. and street"
+                    required
                   />
                   <label class="input-label" for="ad-line-2"
                     >Address Line 2 (Optional):
@@ -147,13 +161,13 @@
 
                 <div class="address-column">
                   <label class="input-label" for="city">Town/City:</label>
-                  <input id="city" class="input-field" type="text" />
+                  <input id="city" class="input-field" type="text" required />
                   <label class="input-label" for="province"
                     >Province/State:
                   </label>
-                  <input id="province" class="input-field" type="text" />
+                  <input id="province" class="input-field" type="text" required />
                   <label class="input-label" for="zip">Postal Code: </label>
-                  <input id="zip" class="input-field" type="text" />
+                  <input id="zip" class="input-field" type="text" required />
                 </div>
 
                 <div class="address-column">
@@ -163,6 +177,7 @@
                     class="input-field"
                     type="text"
                     placeholder="e.g. you@email.com"
+                    required
                   />
                 </div>
               </section>

@@ -27,7 +27,6 @@
 /* Header Section */
 
 header {
-  /* Page-specific updates/additions from main.css */
   gap: 0.5rem;
 }
 
@@ -41,6 +40,7 @@ header {
 
 .nav-main {
   justify-content: space-evenly;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%,rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%);
 }
 
 /* Header Section */

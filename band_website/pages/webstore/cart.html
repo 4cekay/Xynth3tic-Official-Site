@@ -12,6 +12,14 @@
   </head>
 
   <body>
+    <div class="home-cover">
+      <img class="bg-overlay" src="../../images/bg.png" alt="red bg" />
+      <img
+        class="bg-img"
+        src="../../images/fire-house.png"
+        alt="Xynth3tic Band Cover"
+      />
+    </div>
     <header class="flexbox">
       <nav class="nav-main flexbox">
         <a href="../../index.html"
@@ -43,7 +51,7 @@
                 />
                 <p class="cart-description">Limited edition gold signed copy</p>
                 <p class="price">$35.99 CAD</p>
-                <a href="#" class="remove-link">Remove from cart</a>
+                <a class="remove-link" onclick="cartAlert()">Remove from cart</a>
               </div>
             </li>
 
@@ -57,7 +65,7 @@
                 />
                 <p class="cart-description">Limited edition signed copy</p>
                 <p class="price">$19.99 CAD</p>
-                <a href="#" class="remove-link">Remove from cart</a>
+                <a class="remove-link" onclick="cartAlert()">Remove from cart</a>
               </div>
             </li>
 
@@ -71,15 +79,14 @@
                 />
                 <p class="cart-description">Limited edition signed copy</p>
                 <p class="price">$19.99 CAD</p>
-                <a href="#" class="remove-link">Remove from cart</a>
+                <a class="remove-link" onclick="cartAlert()">Remove from cart</a>
               </div>
             </li>
           </ul>
           <div class="subtotal-box">
             <h2>Subtotal:</h2>
             <p>$55.98 CAD</p>
-
-            <button class="payment-button">Checkout</button>
+            <button class="payment-button" onclick="location.href='./checkout.html'">Checkout</button>
           </div>
         </div>
       </section>
@@ -100,5 +107,10 @@
         | <span><a class="footer-link" href="#">Citations</a></span>
       </p>
     </footer>
+     <script>
+      function cartAlert() {
+        alert("Removed from cart!");
+      }
+    </script>
   </body>
 </html>
