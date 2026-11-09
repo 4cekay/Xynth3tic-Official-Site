@@ -44,39 +44,44 @@ header {
 
 .nav-main {
   justify-content: space-evenly;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%,rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.5) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 /* Header Section */
 
 .logo-img {
-    margin: 0 0.5rem;
-    width: 3rem;
-    height: auto;
+  margin: 0 0.5rem;
+  width: 3rem;
+  height: auto;
 }
 
 .nav-links {
-    display: flex;
-    gap: 1rem;
-    margin-left: auto;
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
 }
 
 .nav-link {
-    padding: 1rem;
-    color: var(--base-white);
-    text-decoration: none;
-    transition: all 0.25s;
+  padding: 1rem;
+  color: var(--base-white);
+  text-decoration: none;
+  transition: all 0.25s;
 }
 
 .nav-link:hover,
-.nav-link:focus, 
+.nav-link:focus,
 .current-link:hover,
 .current-link:focus {
-    text-decoration: underline;
-    color: var(--base-taupe);
+  text-decoration: underline;
+  color: var(--base-taupe);
 }
-.nav-link:visited{
-    color: var(--base-white);
+.nav-link:visited {
+  color: var(--base-white);
 }
 
 /* Listings */
@@ -124,7 +129,6 @@ li.cart-item {
 li.cart-item:first-child {
   padding-top: 0;
 }
-
 
 li.cart-item h5 {
   order: 1;
@@ -237,8 +241,20 @@ li.cart-item:first-child .cart-item-data img {
   display: flex;
   flex-direction: column;
 
+  align-items: center;
+  justify-content: center;
+
   padding: 3rem 0;
+  border-top: 0.15rem solid rgba(211, 211, 211, 0.281);
   border-bottom: 0.15rem solid rgba(211, 211, 211, 0.281);
+}
+
+.rendered-display {
+  width: fit-content;
+}
+
+.payment-form {
+  width: fit-content;
 }
 
 #payment-methods {
@@ -248,7 +264,7 @@ li.cart-item:first-child .cart-item-data img {
 }
 
 .payment-button {
-  width: 100%;
+  max-width: 100%;
   padding: 1rem;
   background-color: var(--base-red);
   color: var(--base-white);
@@ -256,7 +272,10 @@ li.cart-item:first-child .cart-item-data img {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+.payment-button:hover {
+  background-color: #0bf21a6f;
 }
 
 /* Billing Form Section */

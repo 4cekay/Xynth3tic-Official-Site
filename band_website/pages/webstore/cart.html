@@ -43,50 +43,63 @@
         <div class="cart-container">
           <ul class="cart-list">
             <li class="cart-item">
-              <p class="cart-item-name">(Limited Ed.) ALBUM2 CD - Gold</p>
+              <p class="cart-item-name">Letters (LP Ver.)</p>
               <div class="cart-item-data">
                 <img
-                  src="../../images/goldcd_175px.png"
-                  alt="Limited Edition ALBUM2 CD - Gold"
+                  src="../../images/letters-vinyl.png"
+                  alt="Letters LP record"
                 />
-                <p class="cart-description">Limited edition gold signed copy</p>
-                <p class="price">$35.99 CAD</p>
-                <a class="remove-link" onclick="cartAlert()">Remove from cart</a>
+                <p class="cart-description">(Limited) Vinyl</p>
+                <p class="price">$39.99 CAD</p>
+                <a class="remove-link" onclick="cartAlert()"
+                  >Remove from cart</a
+                >
               </div>
             </li>
 
             <li class="cart-item">
-              <p class="cart-item-name">ALBUM NAME CD (Signed)</p>
+              <p class="cart-item-name">Xynth3tic Blindfold</p>
               <div class="cart-item-data">
                 <img
-                  src="../../images/redcdcase_200x176px.png"
-                  alt="Limited Edition ALBUM2 CD - Gold"
+                  src="../../images/xynth3tic-blindfold.png"
+                  alt="Xynth3tic signature accessory: blindfold"
                   class="cart-item"
                 />
-                <p class="cart-description">Limited edition signed copy</p>
-                <p class="price">$19.99 CAD</p>
-                <a class="remove-link" onclick="cartAlert()">Remove from cart</a>
+                <p class="cart-description">
+                  Xynth3tic's accessory: lace blindfold
+                </p>
+                <p class="price">$12.99 CAD</p>
+                <a class="remove-link" onclick="cartAlert()"
+                  >Remove from cart</a
+                >
               </div>
             </li>
 
             <li class="cart-item">
-              <p class="cart-item-name">ALBUM NAME CD (Signed)</p>
+              <p class="cart-item-name">Rend1ng Ribbon</p>
               <div class="cart-item-data">
                 <img
-                  src="../../images/redcdcase_200x176px.png"
-                  alt="Limited Edition ALBUM2 CD - Gold"
+                  src="../../images/rend1ng-ribbon.png"
+                  alt="Rend1ng signature accessory: ribbon"
                   class="cart-item"
                 />
-                <p class="cart-description">Limited edition signed copy</p>
-                <p class="price">$19.99 CAD</p>
-                <a class="remove-link" onclick="cartAlert()">Remove from cart</a>
+                <p class="cart-description">Rend1ng's accessory: ribbon</p>
+                <p class="price">$12.99 CAD</p>
+                <a class="remove-link" onclick="cartAlert()"
+                  >Remove from cart</a
+                >
               </div>
             </li>
           </ul>
           <div class="subtotal-box">
             <h2>Subtotal:</h2>
-            <p>$55.98 CAD</p>
-            <button class="payment-button" onclick="location.href='./checkout.html'">Checkout</button>
+            <p>$65.97 CAD</p>
+            <button
+              class="payment-button"
+              onclick="location.href = './checkout.html'"
+            >
+              Checkout
+            </button>
           </div>
         </div>
       </section>
@@ -97,7 +110,7 @@
     <!-- PAYMENT SECTION // -->
 
     <footer class="flexbox">
-      <p class="footer-text">2026 Xynth3tic Band</p>
+      <p class="footer-text">© 2026 Xynth3tic Band. All Rights Reserved.</p>
       <p class="footer-links-list">
         <span
           ><a class="footer-link" href="/style_guide/index.html"
@@ -107,7 +120,7 @@
         | <span><a class="footer-link" href="#">Citations</a></span>
       </p>
     </footer>
-     <script>
+    <script>
       function cartAlert() {
         alert("Removed from cart!");
       }

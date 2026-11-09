@@ -25,6 +25,13 @@ async function showSelectedProduct() {
   const products_list = await getProducts();
   const selected = products_list.find((item) => item.id === productID);
 
+  // insert product image into its slot
+  document.getElementById("item-image").innerHTML += `<img
+    class="item-img"
+    src="${selected.image}"
+    alt="${selected.name} (${selected.type})"
+  />`;
+
   // insert product details into their elements
   document.getElementById("product-name").textContent = selected.name;
   document.getElementById("product-type").textContent = selected.type;
@@ -35,7 +42,9 @@ async function showSelectedProduct() {
 
   // display relevant tags (unhide/keep hidden)
   document.getElementById("product-lim").hidden = !selected.limited;
+  document.getElementById("divider-1").hidden = !selected.limited;
   document.getElementById("product-signed").hidden = !selected.signed;
+  document.getElementById("divider-2").hidden = !selected.signed;
 
   // display full product details once all info is loaded in
   display.hidden = false;

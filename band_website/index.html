@@ -11,11 +11,15 @@
     <link href="./css/home.css" rel="stylesheet" />
   </head>
   <body>
-    <img
-      class="cover-img"
-      src="images/fire-house.png"
-      alt="Xynth3tic Band Cover"
-    />
+    <div class="home-cover">
+      <img class="bg-overlay" src="./images/bg.png" alt="red bg" />
+      <img
+        class="bg-img"
+        src="./images/fire-house.png"
+        alt="Xynth3tic Band Cover"
+      />
+    </div>
+
     <header class="flexbox">
       <nav class="nav-main flexbox">
         <a href="index.html"
@@ -44,13 +48,20 @@
     <div class="page-content">
       <section id="latest">
         <div class="content-container" id="update-gallery">
-          <h1 class="section-heading">Latest Updates</h1>
+          <h1 class="section-heading">Latest Release</h1>
           <!-- Youtube Embed Ref: https://www.w3schools.com/html/html_youtube.asp -->
           <iframe
             class="video-embed"
             src="https://www.youtube.com/embed/Lv7Dy5xyyVk"
             title="Xynth3tic video"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+            "
             allowfullscreen
           ></iframe>
         </div>
@@ -61,8 +72,8 @@
           <h2 class="section-heading">Join the fanclub!</h2>
           <p class="section-caption">
             Sign up for newsletter to never miss an update from Xynth3tic and
-            the Band. Stay up to date with the latest news and exclusive content
-            from the members!
+            the Band. <br />Stay up to date with the latest news and exclusive
+            content from the members!
           </p>
           <form id="newsletter-form">
             <input
@@ -80,17 +91,28 @@
           <h2 class="section-heading">Contact Us</h2>
           <p class="section-caption">
             For inquiries, reach out to our team via email at:
-            <a class="footer-link" href="mailto:info@xynthmus1c.com">info@xynthmus1c.com</a>
+            <a class="footer-link" href="mailto:info@xynthmus1c.com"
+              >info@xynthmus1c.com</a
+            >
           </p>
         </div>
       </section>
     </div>
 
     <footer class="flexbox">
-      <p class="footer-text">2026 Xynth3tic Band</p>
+      <p class="footer-text">© 2026 Xynth3tic Band. All Rights Reserved.</p>
       <p class="footer-links-list">
-        <span><a class="footer-link" href="/style_guide/index.html">Style Guide</a></span>
-        | <span><a class="footer-link" href="./pages/citations.html">Citations</a></span>
+        <span
+          ><a class="footer-link" href="/style_guide/index.html"
+            >Style Guide</a
+          ></span
+        >
+        |
+        <span
+          ><a class="footer-link" href="./pages/citations.html"
+            >Citations</a
+          ></span
+        >
       </p>
     </footer>
   </body>

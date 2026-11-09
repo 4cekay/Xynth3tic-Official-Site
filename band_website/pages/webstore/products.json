@@ -7,7 +7,8 @@
       "limited": true,
       "signed": false,
       "price": 39.99,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world. Now available on LP! (in limited quantities)",
+      "image": "../../images/letters-vinyl.png"
     },
     {
       "id": "letters-first-press",
@@ -16,7 +17,8 @@
       "limited": true,
       "signed": true,
       "price": 24.99,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world. First-press CD signed by artist (in limited quantities).",
+      "image": "../../images/letters-first-press.png"
     },
     {
       "id": "letters-standard",
@@ -25,7 +27,8 @@
       "limited": false,
       "signed": false,
       "price": 14.99,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world.",
+      "image": "../../images/letters-standard-cd.png"
     },
     {
       "id": "letters-deluxe",
@@ -34,7 +37,8 @@
       "limited": false,
       "signed": false,
       "price": 19.99,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+      "description": "An exploration of Xynth3tic's personal journey with her queer identity—starting at repression, onto internal turmoil, self discovery, and ending ultimately with acceptance. Within four lyrical tracks delving into each stage, and four instrumental tracks to tie them together with a solid narrative throughline, this project is a vulnerable culmination of change and self-discovery taking place in the leading lady's inner world. Deluxe Edition with 3 physical-exclusive bonus tracks!",
+      "image": "../../images/letters-deluxe-cd.png"
     },
     {
       "id": "blindfold",
@@ -43,7 +47,8 @@
       "limited": false,
       "signed": false,
       "price": 12.99,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+      "description": "A charcoal lace blindfold, akin to the one donned by leading lady, Xynth3tic, herself.",
+      "image": "../../images/xynth3tic-blindfold.png"
     },
     {
       "id": "mask",
@@ -52,7 +57,8 @@
       "limited": false,
       "signed": false,
       "price": 12.99,
-      "descriptiono": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+      "description": "A silver mask with cracks, akin to the one worn by M4ze",
+      "image": "../../images/m4ze-mask.png"
     },
     {
       "id": "ribbon",
@@ -61,7 +67,8 @@
       "limited": false,
       "signed": false,
       "price": 12.99,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat."
+      "description": "A pearl ribbon tied into a bow, akin to the one worn by Rend1ng.",
+      "image": "../../images/rend1ng-ribbon.png"
     }
   ]
 }

@@ -1,6 +1,11 @@
 .nav-main {
   justify-content: space-evenly;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%,rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.5) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .page-content {
@@ -48,8 +53,12 @@
   color: whitesmoke;
 }
 
-.item-img {
+#item-image {
   flex: 3;
+}
+
+.item-img {
+  width: 100%;
 }
 
 .item-price {
@@ -62,7 +71,7 @@
   font-weight: bold;
 }
 
-.item-tags{
+.item-tags {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -78,6 +87,9 @@
 
   padding: 0em 0;
   color: var(--base-light-grey);
+}
+.tag[hidden] {
+  display: none;
 }
 
 .item-desc {
