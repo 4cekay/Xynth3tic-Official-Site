@@ -33,7 +33,7 @@ h2 {
 #latest {
   width: 100%;
 
-  border-bottom: double 1.15rem rgba(114, 51, 38, 0.505);
+  border-bottom: double 1.15rem rgba(36, 8, 2, 0.505);
 }
 
 .content-container {
@@ -68,6 +68,6 @@ h2 {
 
 /* Contact Section */
 #contact {
-  border: double 1.15rem rgba(114, 51, 38, 0.505);
+  border: double 1.15rem rgba(36, 8, 2, 0.505);
   border-radius: 0.6rem;
 }
