@@ -1,6 +1,11 @@
 .nav-main {
   justify-content: space-evenly;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%,rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.85) 0%,
+    rgba(0, 0, 0, 0.5) 60%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 /* General */
@@ -103,6 +108,12 @@ body {
 }
 
 .section-text {
-  padding: 2rem;
   color: var(--base-taupe);
+}
+
+.member-bio {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
 }
