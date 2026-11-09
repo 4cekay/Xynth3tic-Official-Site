@@ -92,7 +92,7 @@ h2 {
   transition: transform 0.25s ease, opacity 0.25s ease;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 992px) {
   .nav-main {
     flex-direction: column;
     align-items: center;
@@ -140,7 +140,7 @@ h2 {
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 900px) {
   .nav-links-list {
     gap: 0 0.75rem;
   }
