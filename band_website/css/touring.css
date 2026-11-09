@@ -16,6 +16,10 @@
 
 .element-heading {
   color: whitesmoke;
+  font-family: "Instrument Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
 }
 
 /* TOUR LISTINGS */

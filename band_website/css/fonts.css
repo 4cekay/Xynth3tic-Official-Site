@@ -10,13 +10,10 @@
   font-style: normal;
 }
 
-font-face {
+@font-face {
   font-family: "Instrument Serif";
-  src: url("/style_guide/css/fonts/InstrumentSerif-Regular.woff2")
-    format("woff2");
+  src: url("/style_guide/css/fonts/InstrumentSerif-Regular.woff2") format("woff2");
   font-style: normal;
-
-  font-display: swap;
 }
 
 h1 {

@@ -699,7 +699,7 @@ li {
   }
 
   .selectors-list {
-    padding-bottom: none;
+    padding-bottom: 0;
   }
 
   .image-link img {

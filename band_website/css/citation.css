@@ -107,6 +107,10 @@ body {
 
 .citation-title {
   color: var(--bruise-pink);
+  font-family: "Instrument Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
 }
 
 .citation-text-container {
