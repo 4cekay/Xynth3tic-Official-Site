@@ -205,3 +205,9 @@ body {
     gap: 0.75rem;
   }
 }
+
+.ref-link:hover,
+.ref-link:focus {
+  color: var(--base-red);
+  text-decoration: none;
+}

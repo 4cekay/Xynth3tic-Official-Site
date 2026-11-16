@@ -99,6 +99,9 @@ body {
   background: rgba(0, 0, 0, 0.397);
   border: 0.25rem solid var(--dark-black);
   border-radius: 1.5rem;
+  
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .section-title {
