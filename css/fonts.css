@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Rothenburg Decorative";
-  src: url("/style_guide/css/fonts/RothenburgDecorative.woff2") format("woff2");
+  src: url("./fonts/RothenburgDecorative.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: "Instrument Serif";
-  src: url("/style_guide/css/fonts/InstrumentSerif-Regular.woff2") format("woff2");
+  src: url("./fonts/InstrumentSerif-Regular.woff2") format("woff2");
   font-style: normal;
 }
 
@@ -62,8 +62,7 @@ h3 {
 
 @font-face {
   font-family: "Instrument Serif - Italic";
-  src: url("/style_guide/css/fonts/InstrumentSerif-Italic.woff2")
-    format("woff2");
+  src: url("./fonts/InstrumentSerif-Italic.woff2") format("woff2");
   font-style: italic;
 
   font-display: swap;
@@ -76,7 +75,7 @@ h3 {
 
 @font-face {
   font-family: "TT2020 Style E";
-  src: url("/style_guide/css/fonts/TT2020StyleE-Regular.woff2") format("woff2");
+  src: url("./fonts/TT2020StyleE-Regular.woff2") format("woff2");
   font-style: normal;
 }
 
@@ -124,7 +123,7 @@ button {
 
 @font-face {
   font-family: "TT2020 Style E - Italic";
-  src: url("/style_guide/css/fonts/TT2020StyleE-Italic.woff2") format("woff2");
+  src: url("./fonts/TT2020StyleE-Italic.woff2") format("woff2");
   font-style: italic;
 
   font-display: swap;
@@ -132,8 +131,7 @@ button {
 
 @font-face {
   font-family: "TT2020 Style G";
-  src: url("/style_guide/css/fonts/TT2020StyleG-Regular-ASCII.woff2")
-    format("woff2");
+  src: url("./fonts/TT2020StyleG-Regular-ASCII.woff2") format("woff2");
   font-style: normal;
 
   font-display: swap;
@@ -175,13 +173,13 @@ h4 {
   color: var(--base-light-grey);
 }
 
-.price{
+.price {
   font-family: "TT2020 Style E", serif;
   color: var(--base-light-grey);
   font-size: 1.2rem;
 }
 
-.description{
+.description {
   font-family: "TT2020 Style G", serif;
   color: var(--base-light-grey);
   font-size: 1rem;
