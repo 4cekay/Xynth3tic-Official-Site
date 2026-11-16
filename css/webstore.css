@@ -24,7 +24,7 @@
   color: rgb(33, 3, 10);
 }
 
-/* Header Section */
+/* HEADER SECTION*/
 
 header {
   gap: 0.5rem;
@@ -48,8 +48,6 @@ header {
   );
 }
 
-/* Header Section */
-
 /* GENERAL */
 #info-bar {
   display: flex;
@@ -59,9 +57,8 @@ header {
 #main-content {
   gap: 3rem;
 }
-/* GENERAL */
 
-/* Listings */
+/* LISTINGS */
 .element-heading {
   color: whitesmoke;
 }
@@ -81,9 +78,8 @@ header {
 .product-image {
   width: 100%;
 }
-/* Listings */
 
-/* Limited Section*/
+/* LIMITED SECTION */
 
 .limited-list {
   list-style: none;
@@ -111,9 +107,7 @@ header {
   background-color: rgba(121, 71, 66, 0.644);
 }
 
-/* Limited Section*/
-
-/* Merch Section */
+/* MERCH SECTION */
 
 .merch-list {
   list-style: none;
@@ -142,4 +136,110 @@ header {
   background-color: rgba(121, 71, 66, 0.644);
 }
 
-/* Merch Section */
+/* RESPONSIVE LAYOUT RULES */
+
+@media screen and (max-width: 576px) {
+  body {
+    width: 100vw;
+  }
+
+  /* NAVBAR */
+  .nav-main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .logo-img {
+    max-height: 56px;
+    width: auto;
+  }
+
+  .nav-links-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav-links-list a {
+    display: block;
+    padding: 0.4rem 0.25rem;
+    font-size: 0.95rem;
+  }
+
+  .element-heading {
+    margin-top: 1rem;
+
+    font-size: 1.75rem;
+  }
+
+  /* ELEMENTS */
+
+  .product-image {
+    min-width: 20rem;
+    max-height: 20rem;
+  }
+
+  .limited-list,
+  .merch-list {
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lim-item,
+  .merch-item {
+    min-width: 40%;
+    max-width: fit-content;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    width: 100vw;
+  }
+
+  .nav-links-list {
+    padding-left: 0;
+
+    gap: 2rem;
+  }
+
+  .nav-links-list a {
+    font-size: 1rem;
+
+    padding: 0 0.5rem;
+  }
+
+  /* ELEMENTS */
+
+  .lim-item,
+  .merch-item {
+    min-width: 20%;
+    max-width: 45%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 100vw;
+  }
+
+  /* ELEMENTS */
+
+  .lim-item,
+  .merch-item {
+    max-width: 25%;
+  }
+
+  .add-to-cart-button {
+    font-size: 0.8rem;
+  }
+}

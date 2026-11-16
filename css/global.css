@@ -19,23 +19,6 @@
   box-sizing: border-box;
 }
 
-/* Logotype */
-
-/* Reference: https://cssgradient.io/blog/css-gradient-text/ */
-
-.logotype {
-  /* background: -webkit-linear-gradient(
-    var(--base-red) 5%,
-    rgb(6, 3, 3) 35%,
-    var(--dark-red) 95%
-  ); */
-
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
-  -webkit-text-stroke: 0.5px rgb(20, 5, 5);  */
-}
-
 /* Main Components*/
 
 html {
@@ -59,6 +42,9 @@ html {
   top: 0;
   left: 0;
   width: 100vw;
+  min-height: 100vh;
+
+  background-size: cover;
 }
 
 .bg-overlay {
@@ -85,6 +71,14 @@ header {
   text-align: center;
 
   background-color: var(--dark-red);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
 }
 
 footer {
@@ -540,7 +534,8 @@ li {
   COMBINED ELEMENTS -------------------
 */
 
-/* Merchandise Listing */
+/* LISTING DEFAULTS*/
+
 .product-listing,
 .album-listing {
   color: var(--base-light-grey);
@@ -590,71 +585,7 @@ li {
   background-color: var(--button-bg-hover);
 }
 
-/* Payment Form */
-.payment-form {
-  display: flex;
-  flex-direction: column;
-  gap: 2.5rem;
-
-  width: 100%;
-}
-
-#payment {
-  display: flex;
-  flex-direction: column;
-
-  gap: 1.5rem;
-}
-
-.input-row {
-  display: flex;
-  flex-direction: row;
-
-  gap: 3.5rem;
-}
-.checkout-field {
-  display: flex;
-  flex-direction: column;
-
-  gap: 0.75rem;
-}
-
-#billing {
-  display: flex;
-  flex-direction: column;
-
-  gap: 1.5rem;
-}
-
-.name-row > .input-field {
-  width: 28.5%;
-}
-
-.address-column {
-  display: flex;
-  flex-direction: column;
-
-  gap: 0.5rem;
-}
-.address-column > .input-field {
-  width: 100%;
-}
-
-.input-label {
-  font-size: 1rem;
-}
-
-#button-pay {
-  width: 25%;
-
-  border-radius: 4rem;
-
-  align-self: center;
-}
-#button-pay:hover,
-#button-pay:focus {
-  border-color: rgb(88, 165, 11);
-}
+/* WEBSTORE ELEMENTS*/
 
 .paragraph-list {
   margin: 1rem;
@@ -691,6 +622,14 @@ li {
 /* RESPONSIVE LAYOUT RULES */
 
 @media screen and (max-width: 992px) {
+  body {
+    width: 100vw;
+  }
+
+  .bg-img {
+    width: 175%;
+  }
+
   .element {
     gap: 2rem;
   }

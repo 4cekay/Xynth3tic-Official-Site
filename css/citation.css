@@ -8,7 +8,7 @@
   );
 }
 
-/* General */
+/* GENERAL */
 body {
   max-width: 100vw;
 }
@@ -22,6 +22,13 @@ body {
   padding: 0;
 }
 
+.page-title {
+  color: var(--base-light-grey);
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+}
+
 .logo-title {
   z-index: 1;
   margin-top: 1rem;
@@ -33,18 +40,18 @@ body {
   padding-bottom: 2rem;
 }
 
-.band-link {
+.citation-link {
   color: var(--base-white);
   text-decoration: underline;
 }
 
-.band-link:hover,
-.band-link:focus {
+.citation-link:hover,
+.citation-link:focus {
   color: var(--bruise-pink);
   text-decoration: underline;
 }
 
-/* Band Profiles Section*/
+/* FROM BAND PROFILES */
 .content-row {
   flex-direction: row;
   gap: 1rem;
@@ -62,7 +69,7 @@ body {
 
 /* Reference for side nav: https://dev.to/preetsuthar17/sticky-navbar-only-using-css-3nki */
 
-.nav-band {
+.nav-citation {
   position: sticky;
   top: 10rem;
 
@@ -78,7 +85,7 @@ body {
   border-radius: 1.5rem;
 }
 
-.band-link-list {
+.citations-link-list {
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -86,66 +93,61 @@ body {
   padding: 2rem;
 }
 
-.band-link-list li {
+.citations-link-list li {
   list-style: none;
 }
 
-.member-section {
+.citation-section {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 
   padding: 2rem;
   background: rgba(0, 0, 0, 0.397);
   border: 0.25rem solid var(--dark-black);
   border-radius: 1.5rem;
+
+  width: 100%;
 }
 
-.section-title {
+.citation-title {
   color: var(--bruise-pink);
+  font-family: "Instrument Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
 }
 
-.member-profile {
+.citation-text-container {
   display: flex;
   flex-direction: row;
 }
 
-.member-img {
-  width: auto;
-  height: 20em;
-}
-
-.section-text {
+.citation-list {
+  padding: 0rem;
   color: var(--base-taupe);
+
+  font-family: "TT2020 Style E", serif;
 }
 
-.member-bio {
-  display: flex;
-  flex-direction: column;
-
-  padding: 2rem;
+.ref-link {
+  color: var(--bruise-pink);
+  text-decoration: underline;
 }
-
 
 /* Responsive Layout Rules */
 
-.nav-toggle {
-  display: none;
-  background: none;
-  border: 0;
-  padding: 0.5rem;
-  cursor: pointer;
-}
-
-.nav-toggle-bar {
-  display: block;
-  width: 26px;
-  height: 3px;
-  margin: 5px 0;
-  background: var(--base-white);
-  border-radius: 2px;
-  transition: transform 0.25s ease, opacity 0.25s ease;
-}
-
 @media screen and (max-width: 992px) {
+  body {
+    width: 100vw;
+    max-width: 100vw;
+  }
+
+  .nav-citation {
+    visibility: hidden;
+    position: absolute;
+  }
+
   .nav-main {
     flex-direction: column;
     align-items: center;
@@ -182,7 +184,6 @@ body {
   .content-container {
     padding: 1.25rem;
   }
-
 }
 
 @media screen and (max-width: 900px) {
