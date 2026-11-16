@@ -66,6 +66,8 @@ body {
   position: sticky;
   top: 10rem;
 
+  display: flex;
+
   flex: 1;
   align-self: flex-start;
 
@@ -124,28 +126,16 @@ body {
   padding: 2rem;
 }
 
-
 /* Responsive Layout Rules */
 
-.nav-toggle {
-  display: none;
-  background: none;
-  border: 0;
-  padding: 0.5rem;
-  cursor: pointer;
-}
+@media screen and (max-width: 848px) {
+  body {
+    width: 100vw;
+    max-width: 100vw;
+  }
 
-.nav-toggle-bar {
-  display: block;
-  width: 26px;
-  height: 3px;
-  margin: 5px 0;
-  background: var(--base-white);
-  border-radius: 2px;
-  transition: transform 0.25s ease, opacity 0.25s ease;
-}
+  /* NAVBAR */
 
-@media screen and (max-width: 992px) {
   .nav-main {
     flex-direction: column;
     align-items: center;
@@ -176,31 +166,81 @@ body {
   }
 
   .page-content {
-    gap: 2rem;
+    gap: 1rem;
+  }
+
+  .content-row {
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
   }
 
   .content-container {
-    padding: 1.25rem;
+    padding: 2.5rem 5rem;
   }
 
+  /* ELEMENTS */
+  .logo-title {
+    margin-bottom: 1rem;
+
+    width: 25%;
+    height: auto;
+
+    padding-bottom: 0;
+  }
+
+  .nav-band {
+    position: static;
+
+    margin: 0;
+
+    width: 100%;
+  }
+
+  .band-link-list {
+    display: flex;
+    flex-direction: row;
+
+    gap: 5rem;
+
+    padding: 1rem;
+  }
+
+  .member-profile {
+    flex-direction: column;
+  }
+
+  .member-img {
+    min-height: 25rem;
+    max-height: 30rem;
+  }
 }
 
-@media screen and (max-width: 900px) {
-  .nav-links-list {
-    gap: 0 0.75rem;
+@media screen and (max-width: 992px) {
+  body {
+    width: 100vw;
+    max-width: 100vw;
   }
 
-  .nav-links-list a {
-    font-size: 0.85rem;
+  .nav-band {
+    top: 6rem;
   }
 
-  .section-heading {
-    font-size: 1.5rem;
+  .band-link-list {
+    gap: 3.5rem;
+
+    padding: 1rem;
+
+    font-size: 1rem;
   }
 
-  #newsletter-form {
-    display: flex;
+  .member-profile {
     flex-direction: column;
-    gap: 0.75rem;
+  }
+
+  .member-img {
+    min-height: 25rem;
+    max-height: 30rem;
   }
 }

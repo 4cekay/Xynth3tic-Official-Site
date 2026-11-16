@@ -534,7 +534,8 @@ li {
   COMBINED ELEMENTS -------------------
 */
 
-/* Merchandise Listing */
+/* LISTING DEFAULTS*/
+
 .product-listing,
 .album-listing {
   color: var(--base-light-grey);
@@ -584,7 +585,7 @@ li {
   background-color: var(--button-bg-hover);
 }
 
-/* Payment Form */
+/* WEBSTORE ELEMENTS*/
 
 .paragraph-list {
   margin: 1rem;
@@ -620,52 +621,8 @@ li {
 
 /* RESPONSIVE LAYOUT RULES */
 
-@media screen and (max-width: 576px) {
-  body {
-    width: 100vw;
-  }
-
-  .nav-toggle {
-    display: none;
-    background: none;
-    border: 0;
-    padding: 0.5rem;
-    cursor: pointer;
-  }
-
-  .nav-toggle-bar {
-    display: block;
-    width: 26px;
-    height: 3px;
-    margin: 5px 0;
-    background: var(--base-white);
-    border-radius: 2px;
-    transition:
-      transform 0.25s ease,
-      opacity 0.25s ease;
-  }
-
-  footer {
-  }
-}
-
-@media screen and (min-width: 576px) {
-  body {
-    width: 100vw;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    width: 100vw;
-  }
-}
-
 @media screen and (max-width: 992px) {
   body {
-    /* min-width: 100vw;
-    max-width: 100vw; */
-
     width: 100vw;
   }
 

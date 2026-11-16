@@ -314,10 +314,36 @@ li.cart-item:first-child .cart-item-data img {
     padding-top: 1rem;
   }
 
-  /* ELEMENTS */
-  .nav-links-list a {
-    font-size: 0.9rem;
+  .nav-main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
   }
+
+  .logo-img {
+    max-height: 56px;
+    width: auto;
+  }
+
+  .nav-links-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .nav-links-list a {
+    display: block;
+    padding: 0.4rem 0.25rem;
+    font-size: 0.95rem;
+  }
+
+  /* ELEMENTS */
 
   .element-heading {
     margin-top: 1rem;

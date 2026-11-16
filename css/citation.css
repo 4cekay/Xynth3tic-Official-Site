@@ -137,24 +137,6 @@ body {
 
 /* Responsive Layout Rules */
 
-.nav-toggle {
-  display: none;
-  background: none;
-  border: 0;
-  padding: 0.5rem;
-  cursor: pointer;
-}
-
-.nav-toggle-bar {
-  display: block;
-  width: 26px;
-  height: 3px;
-  margin: 5px 0;
-  background: var(--base-white);
-  border-radius: 2px;
-  transition: transform 0.25s ease, opacity 0.25s ease;
-}
-
 @media screen and (max-width: 992px) {
   .nav-main {
     flex-direction: column;
@@ -192,7 +174,6 @@ body {
   .content-container {
     padding: 1.25rem;
   }
-
 }
 
 @media screen and (max-width: 900px) {
