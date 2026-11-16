@@ -388,10 +388,20 @@ figcaption {
 
 /* Image Link */
 .image-link {
+  display: flex;
+  justify-content: center;
+
+  width: fit-content;
+
   transition: all 0.3s;
+  padding: 2.5rem;
+
+  transition: background-color 0.25s ease-in-out;
+  background-color: transparent;
 }
-.image-link:hover {
-  opacity: 0.75;
+.image-link:hover,
+.image-link:focus {
+  background-color: rgba(121, 71, 66, 0.644);
 }
 
 /* 
