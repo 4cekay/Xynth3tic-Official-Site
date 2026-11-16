@@ -8,7 +8,7 @@
   );
 }
 
-/* General */
+/* GENERAL */
 body {
   max-width: 100vw;
 }
@@ -51,7 +51,7 @@ body {
   text-decoration: underline;
 }
 
-/* Band Profiles Section*/
+/* FROM BAND PROFILES */
 .content-row {
   flex-direction: row;
   gap: 1rem;
@@ -138,6 +138,16 @@ body {
 /* Responsive Layout Rules */
 
 @media screen and (max-width: 992px) {
+  body {
+    width: 100vw;
+    max-width: 100vw;
+  }
+
+  .nav-citation {
+    visibility: hidden;
+    position: absolute;
+  }
+
   .nav-main {
     flex-direction: column;
     align-items: center;
